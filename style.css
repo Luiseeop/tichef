@@ -78,3 +78,109 @@ header {
     border: #FD8D5D solid 1px;
     font-weight: 500;
   }
+
+  h1{
+    font-size: 30px;
+    color: #FD8D5D;
+    margin: 50px 500px;
+  }
+
+  .section1 {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.div1 {
+  flex: 1; /* Par défaut, chaque .div1 prendra 1 unité */
+  min-width: 250px; /* Pour éviter qu'elles deviennent trop petites sur petit écran */
+  margin-bottom: 20px;
+}
+
+
+  .img1{
+    display: flex;
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .img2{
+    width: 120px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .img3{
+    width: 120px;
+    margin-left: px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .div2{
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+
+  .div3{
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+   background-color: #FD8D5D;
+  }
+
+  .p1{
+    margin-left: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .p2{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #FD8D5D;
+    font-size: 18px;
+  }
+
+  .div4{
+    margin: 10px 10px 10px 0px;
+  }
+
+  .img4{
+    width: 20px;
+  }
+
+  .h33{
+    margin-bottom: 10px;
+    color: #FD8D5D;
+    font-size: 20px;
+  }
+
+ 
+
+  .li1{
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .f13{
+    font-size: 13px;
+  }
+
+  .flex1 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Pour que ça passe en ligne si l'espace manque */
+  }
+
+  .div1.large {
+    flex: 2; /* Celle-ci prendra 2 unités = deux fois plus grande */
+  }
