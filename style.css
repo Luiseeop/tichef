@@ -89,14 +89,17 @@ header {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
+    border: #00000030 solid 1px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
 }
 
 .div1 {
-  flex: 1; /* Par défaut, chaque .div1 prendra 1 unité */
-  min-width: 250px; /* Pour éviter qu'elles deviennent trop petites sur petit écran */
+  width: 350px ;
+  min-width: 250px; 
   margin-bottom: 20px;
 }
-
 
   .img1{
     display: flex;
@@ -105,7 +108,7 @@ header {
   }
 
   .img2{
-    width: 120px;
+    width: 85px;
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -113,7 +116,7 @@ header {
   }
 
   .img3{
-    width: 120px;
+    width: 85px;
     margin-left: px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -128,7 +131,7 @@ header {
   }
 
   .div3{
-    width: 400px;
+    width: 300px;
     justify-content: space-between;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -181,6 +184,71 @@ header {
     flex-wrap: wrap; /* Pour que ça passe en ligne si l'espace manque */
   }
 
-  .div1.large {
-    flex: 2; /* Celle-ci prendra 2 unités = deux fois plus grande */
+  .div6{
+    width: 500px ;
+    min-width: 250px; 
+    margin-bottom: 20px;
   }
+
+  .hjk{
+    padding-right: 30px;
+  }
+
+  .divv{
+    margin-bottom: 30px;
+  }
+
+.mo10{
+  margin-right: 20px;
+  color: #FD8D5D;
+}
+
+.ico{
+  width: 20px;
+}
+
+
+footer{
+  padding: 100px;
+  background-color: #FD8D5D;
+  margin-top: 100px;
+  color: #ffffff;
+}
+
+.pol{
+  margin-top: 40px;
+  margin-right: 300px;
+}
+
+.li9{
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.wit{
+  color: white;
+}
+
+
+.li8{
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.imgg{
+  width: 300px;
+}
+
+.gh{
+  color: #FD8D5D;
+}
+
+.div5{
+  width: 300px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
